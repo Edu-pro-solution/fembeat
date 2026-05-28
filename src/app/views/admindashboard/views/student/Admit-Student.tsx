@@ -158,7 +158,7 @@ function AdmitStudent() {
               {/* Admission No */}
               <div className="space-y-2">
                 <Label htmlFor="AdmNo">Admission No</Label>
-                <Input id="AdmNo" value={formData.AdmNo} onChange={handleChange} placeholder="ED/2026/001" required />
+                <Input id="AdmNo" value={formData.AdmNo} onChange={handleChange} placeholder="FB/2026/001" required />
               </div>
 
               {/* Password */}
